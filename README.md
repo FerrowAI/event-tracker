@@ -1,4 +1,5 @@
 # event-tracker
+![CI](https://github.com/FerrowAI/event-tracker/actions/workflows/ci.yml/badge.svg)
 
 Event buffer with batched flush to a pluggable async sink. Triggers on batch size or flush interval (unref'd timer). Retries failed flushes once; failed events are re-queued. Manual flush and graceful close (drain).
 
