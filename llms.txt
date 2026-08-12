@@ -1,7 +1,7 @@
 # event-tracker
 > Event buffer with batched flush, auto-flush on size/interval, and retry-once sink
 
-Event buffer with batched flush to a pluggable async sink. Triggers on batch size or flush interval (unref'd timer). Retries failed flushes once; failed events are re-queued. Manual flush and graceful close (drain). ```bash npm install event-tracker
+Event buffer with batched flush to a pluggable async sink. Triggers on batch size or flush interval (unref'd timer). Retries failed flushes once; failed events are re-queued. Manual flush and graceful close (drain).
 
 ## API
 - `TrackedEvent`
