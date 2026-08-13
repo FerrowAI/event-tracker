@@ -1,1 +1,23 @@
-{"name":"event-tracker","version":"1.0.0","description":"Event buffer with batched flush, auto-flush on size/interval, and retry-once sink","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"keywords":["events","batch","flush","buffer","tracker"],"author":"Ruzylo-cloud","license":"MIT","devDependencies":{"@types/node":"^26.2.0","typescript":"^7.0.2"}}
+{
+  "name": "@ferrow/event-tracker",
+  "version": "1.0.0",
+  "description": "Event buffer with batched flush, auto-flush on size/interval, and retry-once sink",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "events",
+    "batch",
+    "flush",
+    "buffer",
+    "tracker"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  }
+}

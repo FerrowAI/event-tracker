@@ -6,7 +6,7 @@ Event buffer with batched flush to a pluggable async sink. Triggers on batch siz
 ## Installation
 
 ```bash
-npm install event-tracker
+npm install @ferrow/event-tracker
 ```
 
 ## Quick Start
